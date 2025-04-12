@@ -14,7 +14,7 @@ public class Calculator {
 	
 	public int divide(int x, int y) {
 		if(y!= 0) { 
-			result = x/y;		
+			result = x / y;		
 		} else {
 			throw new Exception("You cant divide number by Zero");
 			
