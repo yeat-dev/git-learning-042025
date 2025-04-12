@@ -11,5 +11,14 @@ public class Calculator {
 	public int multiply(int i, int j) {
 		return i * j;
 	}
+	
+	public int divide(intx, inty) {
+		if(y!= 0) {
+			result = x/y;		
+		} else {
+			throw new Exception("You cant divide number by Zero");
+			
+		}
+	}
 }
  
